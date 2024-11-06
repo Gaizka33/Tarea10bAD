@@ -28,6 +28,8 @@ public class CrearyCargarAlumnos {
 		String fechaNacimientoString = abielto.next();
 		LocalDate fechaNacimiento = LocalDate.parse(fechaNacimientoString, formato);
 		String fechaNcaimientoParaGson = fechaNacimiento.toString();
+		
+		abielto.nextLine();
 
 		System.out.println("Dame los datos del alumno (Nombre, Apellidos, Ciclo, Curso, Grupo, NIA y Genero): ");
 		String nombre = abielto.nextLine();
