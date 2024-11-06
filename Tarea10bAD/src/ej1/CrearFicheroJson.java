@@ -8,12 +8,12 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 public class CrearFicheroJson {
-	private List<Alumno> listaalumnos;
+	private List<Alumno> listaAlumnos;
 	private Gson gson;
 	private FileWriter writer;
 
 	public CrearFicheroJson(List<Alumno> lista) {
-		this.listaalumnos = lista;
+		this.listaAlumnos = lista;
 		this.gson = new GsonBuilder().setPrettyPrinting().create();
 		crearFichero();
 	}
@@ -30,8 +30,8 @@ public class CrearFicheroJson {
 	}
 
 	private void escribirEnElFichero() {
-		for (Alumno a : listaalumnos) {
-			gson.toJson(a, writer);
-		}
+
+		gson.toJson(listaAlumnos, writer);
+
 	}
 }

@@ -17,7 +17,7 @@ public class CrearyCargarAlumnos {
 	}
 
 	private List<Alumno> cargarAlumnos() {
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 2; i++) {
 			listaAlumnos.add(crearAlumno());
 		}
 		return listaAlumnos;
@@ -29,12 +29,12 @@ public class CrearyCargarAlumnos {
 		LocalDate fechaNacimiento = LocalDate.parse(fechaNacimientoString, formato);
 		String fechaNcaimientoParaGson = fechaNacimiento.toString();
 
-		System.out.println("Ahora Dame los datos del alumno (Nombre, Apellidos, Ciclo, Curso, Grupo, NIA y Genero): ");
-		String nombre = abielto.next();
-		String apellidos = abielto.next();
-		String ciclo = abielto.next();
-		String curso = abielto.next();
-		String grupo = abielto.next();
+		System.out.println("Dame los datos del alumno (Nombre, Apellidos, Ciclo, Curso, Grupo, NIA y Genero): ");
+		String nombre = abielto.nextLine();
+		String apellidos = abielto.nextLine();
+		String ciclo = abielto.nextLine();
+		String curso = abielto.nextLine();
+		String grupo = abielto.nextLine();
 		int nia = abielto.nextInt();
 		char genero = abielto.next().charAt(0);
 

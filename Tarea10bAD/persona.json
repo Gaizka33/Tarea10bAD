@@ -1,19 +1,22 @@
-{
-  "nombre": "Maiki",
-  "apellidos": "lelouch",
-  "ciclo": "DAW",
-  "curso": "1",
-  "grupo": "2",
-  "nia": 234,
-  "genero": "M",
-  "fechadenacimiento": "2001-01-22"
-}{
-  "nombre": "Van",
-  "apellidos": "essa",
-  "ciclo": "2",
-  "curso": "DAM",
-  "grupo": "1",
-  "nia": 567,
-  "genero": "F",
-  "fechadenacimiento": "1999-06-09"
-}
+[
+  {
+    "nombre": "",
+    "apellidos": "Mazo",
+    "ciclo": "Gracias Maiki",
+    "curso": "DAM",
+    "grupo": "2",
+    "nia": 234,
+    "genero": "M",
+    "fechadenacimiento": "2001-02-01"
+  },
+  {
+    "nombre": "",
+    "apellidos": "AleXXXXXX",
+    "ciclo": "AleXXXANDROW",
+    "curso": "DAW",
+    "grupo": "1",
+    "nia": 567,
+    "genero": "M",
+    "fechadenacimiento": "1969-09-06"
+  }
+]
