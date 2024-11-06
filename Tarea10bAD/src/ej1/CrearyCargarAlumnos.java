@@ -17,7 +17,7 @@ public class CrearyCargarAlumnos {
 	}
 
 	private List<Alumno> cargarAlumnos() {
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 5; i++) {
 			listaAlumnos.add(crearAlumno());
 		}
 		return listaAlumnos;
