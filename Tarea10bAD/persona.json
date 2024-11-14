@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "Mazo Gracias ",
+    "apellidos": "Maiki",
+    "ciclo": "1",
+    "curso": "DAM",
+    "grupo": "2",
+    "nia": 234,
+    "genero": "M",
+    "fechadenacimiento": "2001-02-01"
+  },
+  {
+    "nombre": "ALEXXXXXXXXXXXXXXXXXXXXX",
+    "apellidos": "ALEXXXXXXXXXXXXXXXXXXANDROW",
+    "ciclo": "2",
+    "curso": "DAW",
+    "grupo": "5",
+    "nia": 567,
+    "genero": "F",
+    "fechadenacimiento": "1969-09-06"
+  }
+]
